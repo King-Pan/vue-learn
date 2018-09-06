@@ -12,6 +12,13 @@
       </div>
     </div>
     <button @click="login">登录</button>
+
+
+    <Form>
+      <FormItem label="Input">
+        <Input v-model="user.userName" placeholder="Enter something..."></Input>
+      </FormItem>
+    </Form>
   </div>
 </template>
 
